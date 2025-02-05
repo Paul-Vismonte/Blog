@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Travel Log</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+
+        /* Header */
+        header {
+            background: #f4c542;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* Hero Section (World Map) */
+        .hero {
+            text-align: center;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .hero img {
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .country-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .country-buttons button {
+            background: #ffe341;
+            border: none;
+            padding: 8px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Articles Section */
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .article-box {
+            width: 300px;
+            border: 1px solid #ccc;
+            margin: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .article-box:hover {
+            transform: scale(1.05);
+        }
+
+        .article-box img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .article-box h2, .article-box p {
+            padding: 10px;
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+        }
+
+        .subscribe {
+            margin-top: 10px;
+        }
+
+        .subscribe input {
+            padding: 10px;
+            border: none;
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .subscribe button {
+            padding: 10px 15px;
+            border: none;
+            background: #f4c542;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .subscribe button:hover {
+            background: #e0b832;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>THE TRAVEL LOG</h1>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="index.html">FIELD NOTES</a>
+            <a href="#">FOOD</a>
+            <a href="#">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="subscribe">
+            <p>Subscribe to our Field Notes:</p>
+            <input type="email" placeholder="Email Address">
+            <button>SUBSCRIBE</button>
+        </div>
+        <p>&copy; 2025 THE TRAVEL LOG</p>
+    </footer>
+
+</body>
+</html>

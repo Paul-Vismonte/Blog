@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Travel Log</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+
+        /* Header */
+        header {
+            background: #f4c542;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            text-align: left;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #f4c542;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e0b832;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons img {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>THE TRAVEL LOG</h1>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="index.html">FIELD NOTES</a>
+            <a href="#">FOOD</a>
+            <a href="#">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <h2>CONTACT</h2>
+        <p>Got a question, feedback, or just want to say hi? Drop a message below!</p>
+
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="pinterest.png" alt="Pinterest"></a>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+        </div>
+        <p>&copy; 2025 THE TRAVEL LOG</p>
+    </footer>
+
+</body>
+</html>
